@@ -162,8 +162,9 @@ def inference(args, stream):
     if ID == "webcam":
         capture = cv2.VideoCapture(-1)
     else:
-        capture = cv2.VideoCapture(RTSPURL, cv2.CAP_FFMPEG)
-    
+        capture = cv2.VideoCapture("/Users/daikionodera/Downloads/trimed_fall.mp4", cv2.CAP_FFMPEG)
+        print("frame count:{}".format(int(capture.get(cv2.CAP_PROP_FRAME_COUNT))))
+
     if capture.isOpened():
         online = True
         LOG.info('Loaded stream: ' + str(RTSPURL))
@@ -182,7 +183,7 @@ def inference(args, stream):
         grabbed, image = capture.read()
         input_fps = capture.get(cv2.CAP_PROP_FPS)
         
-        if RTSPURL.startswith('rtsp'):
+        if RTSPURL is not None:
             if grabbed:
                 droppedFrames = 0
             else:

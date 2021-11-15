@@ -408,7 +408,8 @@ class KeypointPainter:
         
         # self._draw_fallcount(ax, self.fallcount)
         self.framecount += 1
-        
+        print("frame counter:{}".format(self.framecount))
+
         return self.fallcount
 
     def annotation(self, ax, ann, *, color=None, text=None, subtext=None):
