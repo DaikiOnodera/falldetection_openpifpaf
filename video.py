@@ -159,12 +159,8 @@ def inference(args, stream):
     (RTSPURL, ID, scale) = stream
     online = False
     
-    if ID == "webcam":
-        capture = cv2.VideoCapture(-1)
-    else:
-        capture = cv2.VideoCapture("/Users/daikionodera/Downloads/trimed_fall.mp4", cv2.CAP_FFMPEG)
-        print("frame count:{}".format(int(capture.get(cv2.CAP_PROP_FRAME_COUNT))))
-
+    capture = cv2.VideoCapture("trimed_fall.mp4", cv2.CAP_FFMPEG)
+    
     if capture.isOpened():
         online = True
         LOG.info('Loaded stream: ' + str(RTSPURL))
@@ -182,7 +178,7 @@ def inference(args, stream):
     for frame_i, (ax, ax_second) in enumerate(animation.iter()):
         grabbed, image = capture.read()
         input_fps = capture.get(cv2.CAP_PROP_FPS)
-        
+
         if RTSPURL is not None:
             if grabbed:
                 droppedFrames = 0
@@ -271,33 +267,28 @@ def main():
     if args.device == torch.device('cuda'):
         mp.set_start_method('forkserver')
     
-    if args.source is None:
-        settings = config.ConfigParser().getConfig()
-        streamer = core.MultiStreamLoader(settings['RTSPAPI'])
-    else:
-        streamer = (args.source, "webcam", args.scale)
-        inference(args, streamer)
-        
-        return
+    streamer = (args.source, "webcam", args.scale)
+    inference(args, streamer)
+    return
     
-    streams = streamer.generateStreams()
+    # streams = streamer.generateStreams()
 
-    queue = mp.Queue(-1)
-    listener = mp.Process(
-        target=logger.listener_process, args=(queue,))
-    listener.start()
+    # queue = mp.Queue(-1)
+    # listener = mp.Process(
+    #     target=logger.listener_process, args=(queue,))
+    # listener.start()
 
-    logger.root_configurer(queue, args.log_level)
-    
-    processes = []
-    
-    for stream in streams:
-        process = mp.Process(target=inference, args=(args, stream))
-        process.start()
-        processes.append(process)
-
-    for process in processes:
-        process.join()
+    # logger.root_configurer(queue, args.log_level)
+    #
+    # processes = []
+    #
+    # for stream in streams:
+    #     process = mp.Process(target=inference, args=(args, stream))
+    #     process.start()
+    #     processes.append(process)
+    #
+    # for process in processes:
+    #     process.join()
 
 
 if __name__ == '__main__':

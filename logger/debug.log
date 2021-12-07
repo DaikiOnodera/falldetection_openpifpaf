@@ -1,1 +1,864 @@
-2020-08-27 21:46:45,694 [INFO]: MainProcess video.py(cli:109) >> neural network device: cuda
+2021-12-07 10:49:18,963 [INFO]: MainProcess video.py(cli:111) >> neural network device: cpu
+2021-12-07 10:49:22,774 [INFO]: MainProcess animation_frame.py(__init__:47) >> video output = C:\Users\daiki\PycharmProjects\openpifpaf_fall_debug\venv\lib\site-packages\openpifpaf/output/output.mp4
+2021-12-07 10:49:22,977 [INFO]: MainProcess video.py(inference:166) >> Loaded stream: None
+2021-12-07 10:49:31,372 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:49:31,419 [INFO]: MainProcess video.py(inference:235) >> frame 0, loop time = 8.426s, input FPS = 23.976, output FPS = 0.119
+2021-12-07 10:49:31,419 [INFO]: MainProcess animation.py(_run:333) >> MovieWriter._run: running command: ffmpeg -f rawvideo -vcodec rawvideo -s 800x450 -pix_fmt rgba -r 30 -loglevel error -i pipe: -vcodec h264 -pix_fmt yuv420p -y 'C:\Users\daiki\PycharmProjects\openpifpaf_fall_debug\venv\lib\site-packages\openpifpaf/output/output.mp4'
+2021-12-07 10:49:43,058 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:49:43,168 [INFO]: MainProcess video.py(inference:235) >> frame 1, loop time = 11.749s, input FPS = 23.976, output FPS = 0.085
+2021-12-07 10:49:49,735 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:49:49,781 [INFO]: MainProcess video.py(inference:235) >> frame 2, loop time = 6.598s, input FPS = 23.976, output FPS = 0.152
+2021-12-07 10:49:56,271 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:49:56,318 [INFO]: MainProcess video.py(inference:235) >> frame 3, loop time = 6.536s, input FPS = 23.976, output FPS = 0.153
+2021-12-07 10:50:03,310 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:50:03,357 [INFO]: MainProcess video.py(inference:235) >> frame 4, loop time = 7.039s, input FPS = 23.976, output FPS = 0.142
+2021-12-07 10:50:09,911 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:50:09,958 [INFO]: MainProcess video.py(inference:235) >> frame 5, loop time = 6.601s, input FPS = 23.976, output FPS = 0.151
+2021-12-07 10:50:16,629 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:50:16,676 [INFO]: MainProcess video.py(inference:235) >> frame 6, loop time = 6.702s, input FPS = 23.976, output FPS = 0.149
+2021-12-07 10:50:23,463 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:50:23,509 [INFO]: MainProcess video.py(inference:235) >> frame 7, loop time = 6.818s, input FPS = 23.976, output FPS = 0.147
+2021-12-07 10:50:29,932 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:50:29,979 [INFO]: MainProcess video.py(inference:235) >> frame 8, loop time = 6.469s, input FPS = 23.976, output FPS = 0.155
+2021-12-07 10:50:37,044 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:50:37,091 [INFO]: MainProcess video.py(inference:235) >> frame 9, loop time = 7.096s, input FPS = 23.976, output FPS = 0.141
+2021-12-07 10:50:43,401 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:50:43,448 [INFO]: MainProcess video.py(inference:235) >> frame 10, loop time = 6.357s, input FPS = 23.976, output FPS = 0.157
+2021-12-07 10:50:50,028 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:50:50,075 [INFO]: MainProcess video.py(inference:235) >> frame 11, loop time = 6.627s, input FPS = 23.976, output FPS = 0.151
+2021-12-07 10:50:56,269 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:50:56,316 [INFO]: MainProcess video.py(inference:235) >> frame 12, loop time = 6.241s, input FPS = 23.976, output FPS = 0.160
+2021-12-07 10:51:02,487 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:51:02,530 [INFO]: MainProcess video.py(inference:235) >> frame 13, loop time = 6.213s, input FPS = 23.976, output FPS = 0.161
+2021-12-07 10:51:08,701 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:51:08,748 [INFO]: MainProcess video.py(inference:235) >> frame 14, loop time = 6.201s, input FPS = 23.976, output FPS = 0.161
+2021-12-07 10:51:15,025 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:51:15,056 [INFO]: MainProcess video.py(inference:235) >> frame 15, loop time = 6.308s, input FPS = 23.976, output FPS = 0.159
+2021-12-07 10:51:21,372 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:51:21,419 [INFO]: MainProcess video.py(inference:235) >> frame 16, loop time = 6.362s, input FPS = 23.976, output FPS = 0.157
+2021-12-07 10:51:27,522 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:51:27,569 [INFO]: MainProcess video.py(inference:235) >> frame 17, loop time = 6.150s, input FPS = 23.976, output FPS = 0.163
+2021-12-07 10:51:33,647 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 10:51:33,694 [INFO]: MainProcess video.py(inference:235) >> frame 18, loop time = 6.125s, input FPS = 23.976, output FPS = 0.163
+2021-12-07 10:51:39,913 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 10:51:39,976 [INFO]: MainProcess video.py(inference:235) >> frame 19, loop time = 6.266s, input FPS = 23.976, output FPS = 0.160
+2021-12-07 10:51:46,377 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 10:51:46,440 [INFO]: MainProcess video.py(inference:235) >> frame 20, loop time = 6.448s, input FPS = 23.976, output FPS = 0.155
+2021-12-07 10:51:52,824 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 10:51:52,870 [INFO]: MainProcess video.py(inference:235) >> frame 21, loop time = 6.415s, input FPS = 23.976, output FPS = 0.156
+2021-12-07 10:51:59,404 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 10:51:59,451 [INFO]: MainProcess video.py(inference:235) >> frame 22, loop time = 6.581s, input FPS = 23.976, output FPS = 0.152
+2021-12-07 10:52:05,975 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:52:06,006 [INFO]: MainProcess video.py(inference:235) >> frame 23, loop time = 6.555s, input FPS = 23.976, output FPS = 0.153
+2021-12-07 10:52:12,425 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 10:52:12,472 [INFO]: MainProcess video.py(inference:235) >> frame 24, loop time = 6.466s, input FPS = 23.976, output FPS = 0.155
+2021-12-07 10:52:18,925 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 10:52:18,972 [INFO]: MainProcess video.py(inference:235) >> frame 25, loop time = 6.485s, input FPS = 23.976, output FPS = 0.154
+2021-12-07 10:52:25,559 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 10:52:25,590 [INFO]: MainProcess video.py(inference:235) >> frame 26, loop time = 6.618s, input FPS = 23.976, output FPS = 0.151
+2021-12-07 10:52:32,252 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 10:52:32,283 [INFO]: MainProcess video.py(inference:235) >> frame 27, loop time = 6.693s, input FPS = 23.976, output FPS = 0.149
+2021-12-07 10:52:38,893 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [11]
+2021-12-07 10:52:38,924 [INFO]: MainProcess video.py(inference:235) >> frame 28, loop time = 6.641s, input FPS = 23.976, output FPS = 0.151
+2021-12-07 10:52:45,370 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 10:52:45,417 [INFO]: MainProcess video.py(inference:235) >> frame 29, loop time = 6.477s, input FPS = 23.976, output FPS = 0.154
+2021-12-07 10:52:51,875 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2021-12-07 10:52:51,937 [INFO]: MainProcess video.py(inference:235) >> frame 30, loop time = 6.521s, input FPS = 23.976, output FPS = 0.153
+2021-12-07 10:52:58,375 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2021-12-07 10:52:58,422 [INFO]: MainProcess video.py(inference:235) >> frame 31, loop time = 6.485s, input FPS = 23.976, output FPS = 0.154
+2021-12-07 10:53:04,881 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 10:53:04,912 [INFO]: MainProcess video.py(inference:235) >> frame 32, loop time = 6.490s, input FPS = 23.976, output FPS = 0.154
+2021-12-07 10:53:11,337 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [11]
+2021-12-07 10:53:11,384 [INFO]: MainProcess video.py(inference:235) >> frame 33, loop time = 6.456s, input FPS = 23.976, output FPS = 0.155
+2021-12-07 10:53:17,775 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 10:53:17,822 [INFO]: MainProcess video.py(inference:235) >> frame 34, loop time = 6.438s, input FPS = 23.976, output FPS = 0.155
+2021-12-07 10:53:24,227 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 10:53:24,300 [INFO]: MainProcess video.py(inference:235) >> frame 35, loop time = 6.475s, input FPS = 23.976, output FPS = 0.154
+2021-12-07 10:53:30,798 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 10:53:30,845 [INFO]: MainProcess video.py(inference:235) >> frame 36, loop time = 6.545s, input FPS = 23.976, output FPS = 0.153
+2021-12-07 10:53:37,345 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:53:37,392 [INFO]: MainProcess falldetector.py(update:29) >> FALL DETECTED
+2021-12-07 10:53:37,392 [INFO]: MainProcess painters.py(annotations:402) >> FALL COUNT: 1
+2021-12-07 10:53:37,564 [INFO]: MainProcess imgwriter.py(write:23) >> Frame written: C:\Users\daiki\PycharmProjects\openpifpaf_fall_debug\venv\lib\site-packages\openpifpaf/output/img/20211207_105337_webcam_openpifpaf_1.jpg
+2021-12-07 10:53:37,580 [INFO]: MainProcess video.py(inference:235) >> frame 37, loop time = 6.719s, input FPS = 23.976, output FPS = 0.149
+2021-12-07 10:53:43,954 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:53:44,001 [INFO]: MainProcess video.py(inference:235) >> frame 38, loop time = 6.421s, input FPS = 23.976, output FPS = 0.156
+2021-12-07 10:53:50,414 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [13, 3]
+2021-12-07 10:53:50,461 [INFO]: MainProcess video.py(inference:235) >> frame 39, loop time = 6.460s, input FPS = 23.976, output FPS = 0.155
+2021-12-07 10:53:56,866 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 10:53:56,912 [INFO]: MainProcess video.py(inference:235) >> frame 40, loop time = 6.451s, input FPS = 23.976, output FPS = 0.155
+2021-12-07 10:54:03,351 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:54:03,397 [INFO]: MainProcess video.py(inference:235) >> frame 41, loop time = 6.485s, input FPS = 23.976, output FPS = 0.154
+2021-12-07 10:54:09,804 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 10:54:09,867 [INFO]: MainProcess video.py(inference:235) >> frame 42, loop time = 6.469s, input FPS = 23.976, output FPS = 0.155
+2021-12-07 10:54:16,256 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [8]
+2021-12-07 10:54:16,287 [INFO]: MainProcess falldetector.py(update:29) >> FALL DETECTED
+2021-12-07 10:54:16,287 [INFO]: MainProcess painters.py(annotations:402) >> FALL COUNT: 2
+2021-12-07 10:54:16,444 [INFO]: MainProcess imgwriter.py(write:23) >> Frame written: C:\Users\daiki\PycharmProjects\openpifpaf_fall_debug\venv\lib\site-packages\openpifpaf/output/img/20211207_105416_webcam_openpifpaf_2.jpg
+2021-12-07 10:54:16,444 [INFO]: MainProcess video.py(inference:235) >> frame 43, loop time = 6.577s, input FPS = 23.976, output FPS = 0.152
+2021-12-07 10:54:22,819 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [10]
+2021-12-07 10:54:22,866 [INFO]: MainProcess video.py(inference:235) >> frame 44, loop time = 6.422s, input FPS = 23.976, output FPS = 0.156
+2021-12-07 10:54:29,275 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2021-12-07 10:54:29,338 [INFO]: MainProcess video.py(inference:235) >> frame 45, loop time = 6.472s, input FPS = 23.976, output FPS = 0.155
+2021-12-07 10:54:35,774 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [12, 2, 2]
+2021-12-07 10:54:35,836 [INFO]: MainProcess video.py(inference:235) >> frame 46, loop time = 6.498s, input FPS = 23.976, output FPS = 0.154
+2021-12-07 10:54:42,142 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [10]
+2021-12-07 10:54:42,189 [INFO]: MainProcess video.py(inference:235) >> frame 47, loop time = 6.353s, input FPS = 23.976, output FPS = 0.157
+2021-12-07 10:54:48,372 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [11, 3]
+2021-12-07 10:54:48,434 [INFO]: MainProcess video.py(inference:235) >> frame 48, loop time = 6.229s, input FPS = 23.976, output FPS = 0.161
+2021-12-07 10:54:54,763 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 10:54:54,810 [INFO]: MainProcess video.py(inference:235) >> frame 49, loop time = 6.373s, input FPS = 23.976, output FPS = 0.157
+2021-12-07 10:55:01,221 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 10:55:01,268 [INFO]: MainProcess video.py(inference:235) >> frame 50, loop time = 6.457s, input FPS = 23.976, output FPS = 0.155
+2021-12-07 10:55:07,420 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 10:55:07,479 [INFO]: MainProcess video.py(inference:235) >> frame 51, loop time = 6.207s, input FPS = 23.976, output FPS = 0.161
+2021-12-07 10:55:13,626 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 10:55:13,680 [INFO]: MainProcess video.py(inference:235) >> frame 52, loop time = 6.198s, input FPS = 23.976, output FPS = 0.161
+2021-12-07 10:55:19,852 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [11]
+2021-12-07 10:55:19,899 [INFO]: MainProcess video.py(inference:235) >> frame 53, loop time = 6.218s, input FPS = 23.976, output FPS = 0.161
+2021-12-07 10:55:26,183 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 10:55:26,230 [INFO]: MainProcess video.py(inference:235) >> frame 54, loop time = 6.331s, input FPS = 23.976, output FPS = 0.158
+2021-12-07 10:55:32,379 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [11]
+2021-12-07 10:55:32,426 [INFO]: MainProcess video.py(inference:235) >> frame 55, loop time = 6.180s, input FPS = 23.976, output FPS = 0.162
+2021-12-07 10:55:38,735 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2021-12-07 10:55:38,797 [INFO]: MainProcess video.py(inference:235) >> frame 56, loop time = 6.356s, input FPS = 23.976, output FPS = 0.157
+2021-12-07 10:55:45,280 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 10:55:45,342 [INFO]: MainProcess video.py(inference:235) >> frame 57, loop time = 6.545s, input FPS = 23.976, output FPS = 0.153
+2021-12-07 10:55:51,741 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 10:55:51,788 [INFO]: MainProcess video.py(inference:235) >> frame 58, loop time = 6.446s, input FPS = 23.976, output FPS = 0.155
+2021-12-07 10:55:58,087 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 10:55:58,133 [INFO]: MainProcess video.py(inference:235) >> frame 59, loop time = 6.330s, input FPS = 23.976, output FPS = 0.158
+2021-12-07 10:56:04,274 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [10]
+2021-12-07 10:56:04,321 [INFO]: MainProcess video.py(inference:235) >> frame 60, loop time = 6.188s, input FPS = 23.976, output FPS = 0.162
+2021-12-07 10:56:10,509 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [10, 2, 2]
+2021-12-07 10:56:10,572 [INFO]: MainProcess video.py(inference:235) >> frame 61, loop time = 6.251s, input FPS = 23.976, output FPS = 0.160
+2021-12-07 10:56:16,632 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [10, 2]
+2021-12-07 10:56:16,695 [INFO]: MainProcess video.py(inference:235) >> frame 62, loop time = 6.123s, input FPS = 23.976, output FPS = 0.163
+2021-12-07 10:56:22,864 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [5, 5, 2]
+2021-12-07 10:56:22,942 [INFO]: MainProcess video.py(inference:235) >> frame 63, loop time = 6.248s, input FPS = 23.976, output FPS = 0.160
+2021-12-07 10:56:29,427 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [8, 3]
+2021-12-07 10:56:29,490 [INFO]: MainProcess video.py(inference:235) >> frame 64, loop time = 6.547s, input FPS = 23.976, output FPS = 0.153
+2021-12-07 10:56:35,494 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [6, 3, 3, 2]
+2021-12-07 10:56:35,540 [INFO]: MainProcess video.py(inference:235) >> frame 65, loop time = 6.051s, input FPS = 23.976, output FPS = 0.165
+2021-12-07 10:56:41,344 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [6, 3, 2]
+2021-12-07 10:56:41,391 [INFO]: MainProcess video.py(inference:235) >> frame 66, loop time = 5.851s, input FPS = 23.976, output FPS = 0.171
+2021-12-07 10:56:47,314 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [6, 3, 2]
+2021-12-07 10:56:47,377 [INFO]: MainProcess video.py(inference:235) >> frame 67, loop time = 5.986s, input FPS = 23.976, output FPS = 0.167
+2021-12-07 10:56:53,069 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [6, 2, 2, 2]
+2021-12-07 10:56:53,132 [INFO]: MainProcess video.py(inference:235) >> frame 68, loop time = 5.755s, input FPS = 23.976, output FPS = 0.174
+2021-12-07 10:56:58,921 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [6, 2, 2]
+2021-12-07 10:56:58,983 [INFO]: MainProcess video.py(inference:235) >> frame 69, loop time = 5.852s, input FPS = 23.976, output FPS = 0.171
+2021-12-07 10:57:05,144 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [5, 2, 2]
+2021-12-07 10:57:05,191 [INFO]: MainProcess video.py(inference:235) >> frame 70, loop time = 6.208s, input FPS = 23.976, output FPS = 0.161
+2021-12-07 10:57:11,010 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [6, 3, 2]
+2021-12-07 10:57:11,072 [INFO]: MainProcess video.py(inference:235) >> frame 71, loop time = 5.881s, input FPS = 23.976, output FPS = 0.170
+2021-12-07 10:57:16,681 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [8, 2]
+2021-12-07 10:57:16,729 [INFO]: MainProcess video.py(inference:235) >> frame 72, loop time = 5.657s, input FPS = 23.976, output FPS = 0.177
+2021-12-07 10:57:22,227 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [14, 3, 2, 2]
+2021-12-07 10:57:22,289 [INFO]: MainProcess video.py(inference:235) >> frame 73, loop time = 5.560s, input FPS = 23.976, output FPS = 0.180
+2021-12-07 10:57:27,897 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [12, 2, 2]
+2021-12-07 10:57:27,960 [INFO]: MainProcess video.py(inference:235) >> frame 74, loop time = 5.655s, input FPS = 23.976, output FPS = 0.177
+2021-12-07 10:57:33,560 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [8, 3, 3]
+2021-12-07 10:57:33,622 [INFO]: MainProcess video.py(inference:235) >> frame 75, loop time = 5.662s, input FPS = 23.976, output FPS = 0.177
+2021-12-07 10:57:39,223 [INFO]: MainProcess cifcaf.py(__call__:119) >> 5 annotations: [9, 3, 2, 2, 2]
+2021-12-07 10:57:39,301 [INFO]: MainProcess video.py(inference:235) >> frame 76, loop time = 5.679s, input FPS = 23.976, output FPS = 0.176
+2021-12-07 10:57:44,910 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [8, 3, 3, 2]
+2021-12-07 10:57:44,957 [INFO]: MainProcess video.py(inference:235) >> frame 77, loop time = 5.657s, input FPS = 23.976, output FPS = 0.177
+2021-12-07 10:57:50,345 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [9, 3, 2]
+2021-12-07 10:57:50,408 [INFO]: MainProcess video.py(inference:235) >> frame 78, loop time = 5.451s, input FPS = 23.976, output FPS = 0.183
+2021-12-07 10:57:55,283 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [10, 3, 2]
+2021-12-07 10:57:55,330 [INFO]: MainProcess video.py(inference:235) >> frame 79, loop time = 4.922s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 10:58:00,260 [INFO]: MainProcess cifcaf.py(__call__:119) >> 5 annotations: [5, 2, 2, 2, 2]
+2021-12-07 10:58:00,323 [INFO]: MainProcess video.py(inference:235) >> frame 80, loop time = 4.992s, input FPS = 23.976, output FPS = 0.200
+2021-12-07 10:58:05,147 [INFO]: MainProcess cifcaf.py(__call__:119) >> 5 annotations: [3, 3, 2, 2, 2]
+2021-12-07 10:58:05,194 [INFO]: MainProcess video.py(inference:235) >> frame 81, loop time = 4.872s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 10:58:09,977 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [3, 2, 2, 2]
+2021-12-07 10:58:10,024 [INFO]: MainProcess video.py(inference:235) >> frame 82, loop time = 4.829s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 10:58:14,813 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [2, 2, 2, 2]
+2021-12-07 10:58:14,860 [INFO]: MainProcess video.py(inference:235) >> frame 83, loop time = 4.837s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 10:58:19,725 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [3, 3, 2, 2]
+2021-12-07 10:58:19,772 [INFO]: MainProcess video.py(inference:235) >> frame 84, loop time = 4.912s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 10:58:24,554 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [3, 2, 2]
+2021-12-07 10:58:24,585 [INFO]: MainProcess video.py(inference:235) >> frame 85, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 10:58:29,393 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [3, 2, 2, 2]
+2021-12-07 10:58:29,440 [INFO]: MainProcess video.py(inference:235) >> frame 86, loop time = 4.855s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 10:58:34,338 [INFO]: MainProcess cifcaf.py(__call__:119) >> 5 annotations: [3, 2, 2, 2, 2]
+2021-12-07 10:58:34,385 [INFO]: MainProcess video.py(inference:235) >> frame 87, loop time = 4.945s, input FPS = 23.976, output FPS = 0.202
+2021-12-07 10:58:39,182 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [3, 2, 2]
+2021-12-07 10:58:39,214 [INFO]: MainProcess video.py(inference:235) >> frame 88, loop time = 4.828s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 10:58:43,964 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [3, 2, 2]
+2021-12-07 10:58:43,995 [INFO]: MainProcess video.py(inference:235) >> frame 89, loop time = 4.782s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 10:58:49,003 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [9, 4]
+2021-12-07 10:58:49,050 [INFO]: MainProcess video.py(inference:235) >> frame 90, loop time = 5.054s, input FPS = 23.976, output FPS = 0.198
+2021-12-07 10:58:53,919 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [8, 4]
+2021-12-07 10:58:53,966 [INFO]: MainProcess video.py(inference:235) >> frame 91, loop time = 4.917s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 10:58:58,715 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [11]
+2021-12-07 10:58:58,746 [INFO]: MainProcess video.py(inference:235) >> frame 92, loop time = 4.780s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 10:59:03,512 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [12, 1]
+2021-12-07 10:59:03,559 [INFO]: MainProcess video.py(inference:235) >> frame 93, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 10:59:08,357 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2021-12-07 10:59:08,403 [INFO]: MainProcess video.py(inference:235) >> frame 94, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 10:59:13,155 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 10:59:13,202 [INFO]: MainProcess video.py(inference:235) >> frame 95, loop time = 4.799s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 10:59:17,945 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 10:59:17,977 [INFO]: MainProcess video.py(inference:235) >> frame 96, loop time = 4.774s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 10:59:22,739 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 10:59:22,770 [INFO]: MainProcess video.py(inference:235) >> frame 97, loop time = 4.794s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 10:59:27,662 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:59:27,693 [INFO]: MainProcess video.py(inference:235) >> frame 98, loop time = 4.923s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 10:59:32,455 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:59:32,487 [INFO]: MainProcess video.py(inference:235) >> frame 99, loop time = 4.793s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 10:59:37,369 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 10:59:37,400 [INFO]: MainProcess video.py(inference:235) >> frame 100, loop time = 4.913s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 10:59:42,213 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:59:42,244 [INFO]: MainProcess video.py(inference:235) >> frame 101, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 10:59:47,020 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 10:59:47,052 [INFO]: MainProcess video.py(inference:235) >> frame 102, loop time = 4.808s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 10:59:51,989 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 10:59:52,021 [INFO]: MainProcess video.py(inference:235) >> frame 103, loop time = 4.969s, input FPS = 23.976, output FPS = 0.201
+2021-12-07 10:59:56,740 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 10:59:56,771 [INFO]: MainProcess video.py(inference:235) >> frame 104, loop time = 4.751s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:00:01,691 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:00:01,722 [INFO]: MainProcess video.py(inference:235) >> frame 105, loop time = 4.951s, input FPS = 23.976, output FPS = 0.202
+2021-12-07 11:00:06,597 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:00:06,628 [INFO]: MainProcess video.py(inference:235) >> frame 106, loop time = 4.907s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:00:11,379 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:00:11,410 [INFO]: MainProcess video.py(inference:235) >> frame 107, loop time = 4.782s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:00:16,237 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:00:16,252 [INFO]: MainProcess video.py(inference:235) >> frame 108, loop time = 4.842s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:00:21,088 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:00:21,104 [INFO]: MainProcess video.py(inference:235) >> frame 109, loop time = 4.852s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:00:25,847 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:00:25,894 [INFO]: MainProcess video.py(inference:235) >> frame 110, loop time = 4.775s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:00:30,708 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:00:30,740 [INFO]: MainProcess video.py(inference:235) >> frame 111, loop time = 4.845s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:00:35,705 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [12, 2, 2]
+2021-12-07 11:00:35,736 [INFO]: MainProcess falldetector.py(update:29) >> FALL DETECTED
+2021-12-07 11:00:35,736 [INFO]: MainProcess painters.py(annotations:402) >> FALL COUNT: 3
+2021-12-07 11:00:35,861 [INFO]: MainProcess imgwriter.py(write:23) >> Frame written: C:\Users\daiki\PycharmProjects\openpifpaf_fall_debug\venv\lib\site-packages\openpifpaf/output/img/20211207_110035_webcam_openpifpaf_3.jpg
+2021-12-07 11:00:35,861 [INFO]: MainProcess video.py(inference:235) >> frame 112, loop time = 5.122s, input FPS = 23.976, output FPS = 0.195
+2021-12-07 11:00:40,696 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:00:40,727 [INFO]: MainProcess video.py(inference:235) >> frame 113, loop time = 4.865s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:00:45,540 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2021-12-07 11:00:45,571 [INFO]: MainProcess video.py(inference:235) >> frame 114, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:00:50,308 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:00:50,355 [INFO]: MainProcess video.py(inference:235) >> frame 115, loop time = 4.784s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:00:55,190 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:00:55,237 [INFO]: MainProcess video.py(inference:235) >> frame 116, loop time = 4.882s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:01:00,057 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 11:01:00,088 [INFO]: MainProcess video.py(inference:235) >> frame 117, loop time = 4.851s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:01:04,901 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:01:04,932 [INFO]: MainProcess video.py(inference:235) >> frame 118, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:01:09,685 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:01:09,716 [INFO]: MainProcess video.py(inference:235) >> frame 119, loop time = 4.784s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:01:14,432 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:01:14,464 [INFO]: MainProcess video.py(inference:235) >> frame 120, loop time = 4.748s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:01:19,285 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:01:19,300 [INFO]: MainProcess video.py(inference:235) >> frame 121, loop time = 4.837s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:01:24,063 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:01:24,095 [INFO]: MainProcess video.py(inference:235) >> frame 122, loop time = 4.779s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:01:28,915 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:01:28,962 [INFO]: MainProcess video.py(inference:235) >> frame 123, loop time = 4.852s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:01:33,664 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:01:33,696 [INFO]: MainProcess video.py(inference:235) >> frame 124, loop time = 4.733s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:01:38,612 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:01:38,643 [INFO]: MainProcess video.py(inference:235) >> frame 125, loop time = 4.947s, input FPS = 23.976, output FPS = 0.202
+2021-12-07 11:01:43,676 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:01:43,707 [INFO]: MainProcess video.py(inference:235) >> frame 126, loop time = 5.064s, input FPS = 23.976, output FPS = 0.197
+2021-12-07 11:01:48,421 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:01:48,452 [INFO]: MainProcess video.py(inference:235) >> frame 127, loop time = 4.746s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:01:53,297 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [16, 2]
+2021-12-07 11:01:53,344 [INFO]: MainProcess falldetector.py(update:29) >> FALL DETECTED
+2021-12-07 11:01:53,359 [INFO]: MainProcess painters.py(annotations:402) >> FALL COUNT: 4
+2021-12-07 11:01:53,468 [INFO]: MainProcess imgwriter.py(write:23) >> Frame written: C:\Users\daiki\PycharmProjects\openpifpaf_fall_debug\venv\lib\site-packages\openpifpaf/output/img/20211207_110153_webcam_openpifpaf_4.jpg
+2021-12-07 11:01:53,468 [INFO]: MainProcess video.py(inference:235) >> frame 128, loop time = 5.016s, input FPS = 23.976, output FPS = 0.199
+2021-12-07 11:01:58,459 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [12, 3]
+2021-12-07 11:01:58,491 [INFO]: MainProcess video.py(inference:235) >> frame 129, loop time = 5.022s, input FPS = 23.976, output FPS = 0.199
+2021-12-07 11:02:03,372 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 11:02:03,388 [INFO]: MainProcess video.py(inference:235) >> frame 130, loop time = 4.897s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:02:08,155 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:02:08,202 [INFO]: MainProcess video.py(inference:235) >> frame 131, loop time = 4.798s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:02:12,905 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 11:02:12,936 [INFO]: MainProcess video.py(inference:235) >> frame 132, loop time = 4.734s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:02:17,611 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:02:17,642 [INFO]: MainProcess video.py(inference:235) >> frame 133, loop time = 4.706s, input FPS = 23.976, output FPS = 0.212
+2021-12-07 11:02:22,440 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2021-12-07 11:02:22,487 [INFO]: MainProcess video.py(inference:235) >> frame 134, loop time = 4.829s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:02:27,347 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [11, 3]
+2021-12-07 11:02:27,394 [INFO]: MainProcess video.py(inference:235) >> frame 135, loop time = 4.907s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:02:32,189 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [13, 3]
+2021-12-07 11:02:32,220 [INFO]: MainProcess video.py(inference:235) >> frame 136, loop time = 4.826s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:02:37,080 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [14, 2, 2]
+2021-12-07 11:02:37,126 [INFO]: MainProcess video.py(inference:235) >> frame 137, loop time = 4.906s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:02:41,874 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [12, 2, 2]
+2021-12-07 11:02:41,920 [INFO]: MainProcess video.py(inference:235) >> frame 138, loop time = 4.794s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:02:46,718 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:02:46,749 [INFO]: MainProcess video.py(inference:235) >> frame 139, loop time = 4.828s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:02:51,687 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:02:51,718 [INFO]: MainProcess video.py(inference:235) >> frame 140, loop time = 4.969s, input FPS = 23.976, output FPS = 0.201
+2021-12-07 11:02:56,515 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [12, 3]
+2021-12-07 11:02:56,546 [INFO]: MainProcess video.py(inference:235) >> frame 141, loop time = 4.829s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:03:01,300 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 11:03:01,331 [INFO]: MainProcess video.py(inference:235) >> frame 142, loop time = 4.785s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:03:06,144 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [16, 2, 3]
+2021-12-07 11:03:06,175 [INFO]: MainProcess video.py(inference:235) >> frame 143, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:03:11,003 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [16, 2]
+2021-12-07 11:03:11,035 [INFO]: MainProcess video.py(inference:235) >> frame 144, loop time = 4.860s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:03:15,801 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:03:15,879 [INFO]: MainProcess video.py(inference:235) >> frame 145, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:03:20,551 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:03:20,582 [INFO]: MainProcess video.py(inference:235) >> frame 146, loop time = 4.704s, input FPS = 23.976, output FPS = 0.213
+2021-12-07 11:03:25,465 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:03:25,496 [INFO]: MainProcess video.py(inference:235) >> frame 147, loop time = 4.914s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:03:30,363 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:03:30,395 [INFO]: MainProcess video.py(inference:235) >> frame 148, loop time = 4.898s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:03:35,236 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:03:35,267 [INFO]: MainProcess video.py(inference:235) >> frame 149, loop time = 4.873s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:03:40,329 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:03:40,360 [INFO]: MainProcess video.py(inference:235) >> frame 150, loop time = 5.093s, input FPS = 23.976, output FPS = 0.196
+2021-12-07 11:03:45,235 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [16, 3]
+2021-12-07 11:03:45,265 [INFO]: MainProcess video.py(inference:235) >> frame 151, loop time = 4.905s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:03:49,986 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:03:50,033 [INFO]: MainProcess video.py(inference:235) >> frame 152, loop time = 4.768s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:03:54,799 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:03:54,830 [INFO]: MainProcess video.py(inference:235) >> frame 153, loop time = 4.797s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:03:59,666 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:03:59,713 [INFO]: MainProcess video.py(inference:235) >> frame 154, loop time = 4.882s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:04:04,525 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:04:04,556 [INFO]: MainProcess video.py(inference:235) >> frame 155, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:04:09,387 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:04:09,418 [INFO]: MainProcess video.py(inference:235) >> frame 156, loop time = 4.862s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:04:14,168 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:04:14,199 [INFO]: MainProcess video.py(inference:235) >> frame 157, loop time = 4.781s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:04:19,079 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [13, 3]
+2021-12-07 11:04:19,110 [INFO]: MainProcess video.py(inference:235) >> frame 158, loop time = 4.911s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:04:23,919 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2021-12-07 11:04:23,981 [INFO]: MainProcess video.py(inference:235) >> frame 159, loop time = 4.856s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:04:28,700 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:04:28,747 [INFO]: MainProcess video.py(inference:235) >> frame 160, loop time = 4.766s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:04:33,576 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:04:33,607 [INFO]: MainProcess video.py(inference:235) >> frame 161, loop time = 4.860s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:04:38,360 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:04:38,407 [INFO]: MainProcess video.py(inference:235) >> frame 162, loop time = 4.784s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:04:43,170 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:04:43,201 [INFO]: MainProcess video.py(inference:235) >> frame 163, loop time = 4.794s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:04:48,023 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:04:48,070 [INFO]: MainProcess video.py(inference:235) >> frame 164, loop time = 4.869s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:04:52,842 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:04:52,874 [INFO]: MainProcess video.py(inference:235) >> frame 165, loop time = 4.804s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:04:57,575 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:04:57,606 [INFO]: MainProcess video.py(inference:235) >> frame 166, loop time = 4.732s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:05:02,418 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:05:02,449 [INFO]: MainProcess video.py(inference:235) >> frame 167, loop time = 4.843s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:05:07,297 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 11:05:07,312 [INFO]: MainProcess video.py(inference:235) >> frame 168, loop time = 4.864s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:05:12,016 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 11:05:12,031 [INFO]: MainProcess video.py(inference:235) >> frame 169, loop time = 4.719s, input FPS = 23.976, output FPS = 0.212
+2021-12-07 11:05:16,860 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [14, 2, 2]
+2021-12-07 11:05:16,907 [INFO]: MainProcess video.py(inference:235) >> frame 170, loop time = 4.875s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:05:21,671 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:05:21,702 [INFO]: MainProcess video.py(inference:235) >> frame 171, loop time = 4.796s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:05:26,470 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 11:05:26,510 [INFO]: MainProcess video.py(inference:235) >> frame 172, loop time = 4.806s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:05:32,018 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:05:32,065 [INFO]: MainProcess video.py(inference:235) >> frame 173, loop time = 5.554s, input FPS = 23.976, output FPS = 0.180
+2021-12-07 11:05:37,569 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:05:37,600 [INFO]: MainProcess video.py(inference:235) >> frame 174, loop time = 5.535s, input FPS = 23.976, output FPS = 0.181
+2021-12-07 11:05:43,274 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:05:43,305 [INFO]: MainProcess video.py(inference:235) >> frame 175, loop time = 5.705s, input FPS = 23.976, output FPS = 0.175
+2021-12-07 11:05:48,263 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:05:48,310 [INFO]: MainProcess video.py(inference:235) >> frame 176, loop time = 4.989s, input FPS = 23.976, output FPS = 0.200
+2021-12-07 11:05:53,241 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:05:53,273 [INFO]: MainProcess video.py(inference:235) >> frame 177, loop time = 4.947s, input FPS = 23.976, output FPS = 0.202
+2021-12-07 11:05:58,058 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:05:58,089 [INFO]: MainProcess video.py(inference:235) >> frame 178, loop time = 4.816s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:06:03,027 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:06:03,058 [INFO]: MainProcess video.py(inference:235) >> frame 179, loop time = 4.953s, input FPS = 23.976, output FPS = 0.202
+2021-12-07 11:06:07,938 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:06:07,969 [INFO]: MainProcess video.py(inference:235) >> frame 180, loop time = 4.911s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:06:12,860 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:06:12,892 [INFO]: MainProcess video.py(inference:235) >> frame 181, loop time = 4.922s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:06:17,702 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:06:17,733 [INFO]: MainProcess video.py(inference:235) >> frame 182, loop time = 4.842s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:06:22,597 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:06:22,628 [INFO]: MainProcess video.py(inference:235) >> frame 183, loop time = 4.895s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:06:27,504 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 3]
+2021-12-07 11:06:27,551 [INFO]: MainProcess video.py(inference:235) >> frame 184, loop time = 4.923s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:06:32,504 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 3]
+2021-12-07 11:06:32,536 [INFO]: MainProcess video.py(inference:235) >> frame 185, loop time = 4.985s, input FPS = 23.976, output FPS = 0.201
+2021-12-07 11:06:37,350 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:06:37,381 [INFO]: MainProcess video.py(inference:235) >> frame 186, loop time = 4.845s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:06:42,366 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:06:42,397 [INFO]: MainProcess video.py(inference:235) >> frame 187, loop time = 5.016s, input FPS = 23.976, output FPS = 0.199
+2021-12-07 11:06:47,165 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 11:06:47,196 [INFO]: MainProcess video.py(inference:235) >> frame 188, loop time = 4.799s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:06:52,057 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [16, 2]
+2021-12-07 11:06:52,104 [INFO]: MainProcess video.py(inference:235) >> frame 189, loop time = 4.908s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:06:56,979 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:06:57,026 [INFO]: MainProcess video.py(inference:235) >> frame 190, loop time = 4.922s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:07:01,824 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:07:01,855 [INFO]: MainProcess video.py(inference:235) >> frame 191, loop time = 4.828s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:07:06,605 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:07:06,652 [INFO]: MainProcess video.py(inference:235) >> frame 192, loop time = 4.797s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:07:11,515 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:07:11,562 [INFO]: MainProcess video.py(inference:235) >> frame 193, loop time = 4.910s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:07:16,388 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 3]
+2021-12-07 11:07:16,435 [INFO]: MainProcess video.py(inference:235) >> frame 194, loop time = 4.873s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:07:21,357 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:07:21,404 [INFO]: MainProcess video.py(inference:235) >> frame 195, loop time = 4.954s, input FPS = 23.976, output FPS = 0.202
+2021-12-07 11:07:26,170 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:07:26,201 [INFO]: MainProcess video.py(inference:235) >> frame 196, loop time = 4.797s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:07:30,996 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:07:31,043 [INFO]: MainProcess video.py(inference:235) >> frame 197, loop time = 4.842s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:07:35,789 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [16, 2]
+2021-12-07 11:07:35,821 [INFO]: MainProcess video.py(inference:235) >> frame 198, loop time = 4.777s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:07:40,541 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:07:40,572 [INFO]: MainProcess video.py(inference:235) >> frame 199, loop time = 4.752s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:07:45,417 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [16, 2]
+2021-12-07 11:07:45,464 [INFO]: MainProcess video.py(inference:235) >> frame 200, loop time = 4.891s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:07:50,253 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:07:50,284 [INFO]: MainProcess video.py(inference:235) >> frame 201, loop time = 4.820s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:07:55,158 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 11:07:55,189 [INFO]: MainProcess video.py(inference:235) >> frame 202, loop time = 4.905s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:07:59,955 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2021-12-07 11:08:00,002 [INFO]: MainProcess video.py(inference:235) >> frame 203, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:08:04,799 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2021-12-07 11:08:04,846 [INFO]: MainProcess video.py(inference:235) >> frame 204, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:08:09,639 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:08:09,702 [INFO]: MainProcess video.py(inference:235) >> frame 205, loop time = 4.840s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:08:14,814 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [16, 2]
+2021-12-07 11:08:14,861 [INFO]: MainProcess video.py(inference:235) >> frame 206, loop time = 5.160s, input FPS = 23.976, output FPS = 0.194
+2021-12-07 11:08:19,757 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:08:19,788 [INFO]: MainProcess video.py(inference:235) >> frame 207, loop time = 4.927s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:08:24,601 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:08:24,632 [INFO]: MainProcess video.py(inference:235) >> frame 208, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:08:29,384 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:08:29,430 [INFO]: MainProcess video.py(inference:235) >> frame 209, loop time = 4.783s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:08:34,330 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:08:34,361 [INFO]: MainProcess video.py(inference:235) >> frame 210, loop time = 4.930s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:08:39,133 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:08:39,180 [INFO]: MainProcess video.py(inference:235) >> frame 211, loop time = 4.819s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:08:43,977 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2021-12-07 11:08:44,009 [INFO]: MainProcess video.py(inference:235) >> frame 212, loop time = 4.829s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:08:48,806 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2021-12-07 11:08:48,837 [INFO]: MainProcess video.py(inference:235) >> frame 213, loop time = 4.829s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:08:53,576 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [13, 2, 2]
+2021-12-07 11:08:53,622 [INFO]: MainProcess video.py(inference:235) >> frame 214, loop time = 4.785s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:08:58,467 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [13, 2, 2]
+2021-12-07 11:08:58,514 [INFO]: MainProcess video.py(inference:235) >> frame 215, loop time = 4.891s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:09:03,280 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2021-12-07 11:09:03,327 [INFO]: MainProcess video.py(inference:235) >> frame 216, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:09:08,155 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [14, 2, 2]
+2021-12-07 11:09:08,202 [INFO]: MainProcess video.py(inference:235) >> frame 217, loop time = 4.875s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:09:13,086 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:09:13,117 [INFO]: MainProcess video.py(inference:235) >> frame 218, loop time = 4.915s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:09:17,898 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:09:17,929 [INFO]: MainProcess video.py(inference:235) >> frame 219, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:09:22,832 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:09:22,848 [INFO]: MainProcess video.py(inference:235) >> frame 220, loop time = 4.919s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:09:27,629 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:09:27,660 [INFO]: MainProcess video.py(inference:235) >> frame 221, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:09:32,390 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:09:32,437 [INFO]: MainProcess video.py(inference:235) >> frame 222, loop time = 4.761s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:09:37,261 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:09:37,292 [INFO]: MainProcess video.py(inference:235) >> frame 223, loop time = 4.856s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:09:42,152 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:09:42,183 [INFO]: MainProcess video.py(inference:235) >> frame 224, loop time = 4.891s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:09:47,012 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:09:47,043 [INFO]: MainProcess video.py(inference:235) >> frame 225, loop time = 4.860s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:09:51,770 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:09:51,801 [INFO]: MainProcess video.py(inference:235) >> frame 226, loop time = 4.758s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:09:56,537 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:09:56,569 [INFO]: MainProcess video.py(inference:235) >> frame 227, loop time = 4.767s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:10:01,335 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:01,366 [INFO]: MainProcess video.py(inference:235) >> frame 228, loop time = 4.797s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:10:06,101 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:06,132 [INFO]: MainProcess video.py(inference:235) >> frame 229, loop time = 4.766s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:10:10,914 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:10,945 [INFO]: MainProcess video.py(inference:235) >> frame 230, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:10:15,743 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:15,775 [INFO]: MainProcess video.py(inference:235) >> frame 231, loop time = 4.830s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:10:20,603 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:20,681 [INFO]: MainProcess video.py(inference:235) >> frame 232, loop time = 4.906s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:10:25,492 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:25,523 [INFO]: MainProcess video.py(inference:235) >> frame 233, loop time = 4.842s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:10:30,398 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:30,430 [INFO]: MainProcess video.py(inference:235) >> frame 234, loop time = 4.907s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:10:35,254 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:35,285 [INFO]: MainProcess video.py(inference:235) >> frame 235, loop time = 4.856s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:10:40,239 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:40,270 [INFO]: MainProcess video.py(inference:235) >> frame 236, loop time = 4.985s, input FPS = 23.976, output FPS = 0.201
+2021-12-07 11:10:45,114 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:45,145 [INFO]: MainProcess video.py(inference:235) >> frame 237, loop time = 4.875s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:10:49,928 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:49,959 [INFO]: MainProcess video.py(inference:235) >> frame 238, loop time = 4.814s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:10:54,794 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:54,826 [INFO]: MainProcess video.py(inference:235) >> frame 239, loop time = 4.866s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:10:59,607 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:10:59,638 [INFO]: MainProcess video.py(inference:235) >> frame 240, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:11:04,545 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:04,576 [INFO]: MainProcess video.py(inference:235) >> frame 241, loop time = 4.938s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:11:09,405 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:09,436 [INFO]: MainProcess video.py(inference:235) >> frame 242, loop time = 4.860s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:11:14,174 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:14,205 [INFO]: MainProcess video.py(inference:235) >> frame 243, loop time = 4.769s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:11:18,912 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:18,943 [INFO]: MainProcess video.py(inference:235) >> frame 244, loop time = 4.722s, input FPS = 23.976, output FPS = 0.212
+2021-12-07 11:11:23,802 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:23,818 [INFO]: MainProcess video.py(inference:235) >> frame 245, loop time = 4.875s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:11:28,668 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:28,700 [INFO]: MainProcess video.py(inference:235) >> frame 246, loop time = 4.882s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:11:33,357 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:33,388 [INFO]: MainProcess video.py(inference:235) >> frame 247, loop time = 4.689s, input FPS = 23.976, output FPS = 0.213
+2021-12-07 11:11:38,294 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:38,325 [INFO]: MainProcess video.py(inference:235) >> frame 248, loop time = 4.937s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:11:43,122 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:43,154 [INFO]: MainProcess video.py(inference:235) >> frame 249, loop time = 4.829s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:11:47,966 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:47,998 [INFO]: MainProcess video.py(inference:235) >> frame 250, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:11:52,728 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:52,759 [INFO]: MainProcess video.py(inference:235) >> frame 251, loop time = 4.761s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:11:57,463 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:11:57,494 [INFO]: MainProcess video.py(inference:235) >> frame 252, loop time = 4.735s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:12:02,275 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:12:02,307 [INFO]: MainProcess video.py(inference:235) >> frame 253, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:12:07,134 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:12:07,165 [INFO]: MainProcess video.py(inference:235) >> frame 254, loop time = 4.858s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:12:12,103 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:12:12,134 [INFO]: MainProcess video.py(inference:235) >> frame 255, loop time = 4.969s, input FPS = 23.976, output FPS = 0.201
+2021-12-07 11:12:16,964 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:12:16,995 [INFO]: MainProcess video.py(inference:235) >> frame 256, loop time = 4.861s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:12:21,792 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:12:21,824 [INFO]: MainProcess video.py(inference:235) >> frame 257, loop time = 4.828s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:12:26,612 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:12:26,643 [INFO]: MainProcess video.py(inference:235) >> frame 258, loop time = 4.820s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:12:31,440 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:12:31,472 [INFO]: MainProcess video.py(inference:235) >> frame 259, loop time = 4.828s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:12:36,371 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [17]
+2021-12-07 11:12:36,387 [INFO]: MainProcess video.py(inference:235) >> frame 260, loop time = 4.915s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:12:41,126 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [17]
+2021-12-07 11:12:41,158 [INFO]: MainProcess video.py(inference:235) >> frame 261, loop time = 4.771s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:12:45,955 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:12:45,986 [INFO]: MainProcess video.py(inference:235) >> frame 262, loop time = 4.829s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:12:50,752 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:12:50,783 [INFO]: MainProcess video.py(inference:235) >> frame 263, loop time = 4.797s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:12:55,585 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:12:55,617 [INFO]: MainProcess video.py(inference:235) >> frame 264, loop time = 4.834s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:13:00,449 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:13:00,465 [INFO]: MainProcess video.py(inference:235) >> frame 265, loop time = 4.848s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:13:05,293 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:13:05,325 [INFO]: MainProcess video.py(inference:235) >> frame 266, loop time = 4.860s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:13:10,106 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:13:10,138 [INFO]: MainProcess video.py(inference:235) >> frame 267, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:13:14,903 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:13:14,935 [INFO]: MainProcess video.py(inference:235) >> frame 268, loop time = 4.797s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:13:19,681 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:13:19,712 [INFO]: MainProcess video.py(inference:235) >> frame 269, loop time = 4.762s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:13:24,431 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [14]
+2021-12-07 11:13:24,463 [INFO]: MainProcess video.py(inference:235) >> frame 270, loop time = 4.750s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:13:29,273 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:13:29,304 [INFO]: MainProcess video.py(inference:235) >> frame 271, loop time = 4.841s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:13:34,117 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:13:34,148 [INFO]: MainProcess video.py(inference:235) >> frame 272, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:13:38,956 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:13:38,988 [INFO]: MainProcess video.py(inference:235) >> frame 273, loop time = 4.840s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:13:43,785 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:13:43,816 [INFO]: MainProcess video.py(inference:235) >> frame 274, loop time = 4.828s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:13:48,772 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:13:48,803 [INFO]: MainProcess video.py(inference:235) >> frame 275, loop time = 4.987s, input FPS = 23.976, output FPS = 0.201
+2021-12-07 11:13:53,603 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:13:53,618 [INFO]: MainProcess video.py(inference:235) >> frame 276, loop time = 4.816s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:13:58,430 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:13:58,461 [INFO]: MainProcess video.py(inference:235) >> frame 277, loop time = 4.843s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:14:03,299 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:14:03,330 [INFO]: MainProcess video.py(inference:235) >> frame 278, loop time = 4.869s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:14:08,145 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:14:08,177 [INFO]: MainProcess video.py(inference:235) >> frame 279, loop time = 4.847s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:14:12,958 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:14:12,989 [INFO]: MainProcess video.py(inference:235) >> frame 280, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:14:17,777 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:14:17,793 [INFO]: MainProcess video.py(inference:235) >> frame 281, loop time = 4.803s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:14:22,686 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:14:22,717 [INFO]: MainProcess video.py(inference:235) >> frame 282, loop time = 4.924s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:14:27,546 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:14:27,577 [INFO]: MainProcess video.py(inference:235) >> frame 283, loop time = 4.860s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:14:32,312 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:14:32,343 [INFO]: MainProcess video.py(inference:235) >> frame 284, loop time = 4.750s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:14:37,206 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:14:37,238 [INFO]: MainProcess video.py(inference:235) >> frame 285, loop time = 4.895s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:14:42,085 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:14:42,117 [INFO]: MainProcess video.py(inference:235) >> frame 286, loop time = 4.863s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:14:46,875 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:14:46,906 [INFO]: MainProcess video.py(inference:235) >> frame 287, loop time = 4.790s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:14:51,688 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:14:51,719 [INFO]: MainProcess video.py(inference:235) >> frame 288, loop time = 4.813s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:14:56,465 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:14:56,496 [INFO]: MainProcess video.py(inference:235) >> frame 289, loop time = 4.777s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:15:01,231 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:01,262 [INFO]: MainProcess video.py(inference:235) >> frame 290, loop time = 4.766s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:15:06,107 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:06,138 [INFO]: MainProcess video.py(inference:235) >> frame 291, loop time = 4.875s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:15:11,001 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:11,032 [INFO]: MainProcess video.py(inference:235) >> frame 292, loop time = 4.879s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:15:15,794 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:15,810 [INFO]: MainProcess video.py(inference:235) >> frame 293, loop time = 4.778s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:15:20,528 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:20,559 [INFO]: MainProcess video.py(inference:235) >> frame 294, loop time = 4.749s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:15:25,403 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:25,434 [INFO]: MainProcess video.py(inference:235) >> frame 295, loop time = 4.875s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:15:30,294 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:30,325 [INFO]: MainProcess video.py(inference:235) >> frame 296, loop time = 4.891s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:15:35,102 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:35,133 [INFO]: MainProcess video.py(inference:235) >> frame 297, loop time = 4.793s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:15:39,890 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:39,921 [INFO]: MainProcess video.py(inference:235) >> frame 298, loop time = 4.788s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:15:44,696 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:44,727 [INFO]: MainProcess video.py(inference:235) >> frame 299, loop time = 4.805s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:15:49,462 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:49,493 [INFO]: MainProcess video.py(inference:235) >> frame 300, loop time = 4.766s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:15:54,306 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:54,321 [INFO]: MainProcess video.py(inference:235) >> frame 301, loop time = 4.828s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:15:59,153 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:15:59,169 [INFO]: MainProcess video.py(inference:235) >> frame 302, loop time = 4.848s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:16:03,931 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:16:03,962 [INFO]: MainProcess video.py(inference:235) >> frame 303, loop time = 4.777s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:16:08,804 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:16:08,819 [INFO]: MainProcess video.py(inference:235) >> frame 304, loop time = 4.857s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:16:13,695 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:16:13,726 [INFO]: MainProcess video.py(inference:235) >> frame 305, loop time = 4.907s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:16:18,526 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:16:18,557 [INFO]: MainProcess video.py(inference:235) >> frame 306, loop time = 4.815s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:16:23,436 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:16:23,467 [INFO]: MainProcess video.py(inference:235) >> frame 307, loop time = 4.910s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:16:28,166 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:16:28,197 [INFO]: MainProcess video.py(inference:235) >> frame 308, loop time = 4.730s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:16:32,927 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:16:32,958 [INFO]: MainProcess video.py(inference:235) >> frame 309, loop time = 4.761s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:16:37,731 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:16:37,762 [INFO]: MainProcess video.py(inference:235) >> frame 310, loop time = 4.804s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:16:42,606 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:16:42,653 [INFO]: MainProcess video.py(inference:235) >> frame 311, loop time = 4.891s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:16:47,403 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:16:47,435 [INFO]: MainProcess video.py(inference:235) >> frame 312, loop time = 4.782s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:16:52,248 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:16:52,279 [INFO]: MainProcess video.py(inference:235) >> frame 313, loop time = 4.829s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:16:57,016 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:16:57,063 [INFO]: MainProcess video.py(inference:235) >> frame 314, loop time = 4.784s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:17:01,829 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:01,860 [INFO]: MainProcess video.py(inference:235) >> frame 315, loop time = 4.797s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:17:06,661 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:06,693 [INFO]: MainProcess video.py(inference:235) >> frame 316, loop time = 4.833s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:17:11,459 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:11,490 [INFO]: MainProcess video.py(inference:235) >> frame 317, loop time = 4.797s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:17:16,381 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:16,412 [INFO]: MainProcess video.py(inference:235) >> frame 318, loop time = 4.922s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:17:21,238 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:21,269 [INFO]: MainProcess video.py(inference:235) >> frame 319, loop time = 4.857s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:17:26,102 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:26,133 [INFO]: MainProcess video.py(inference:235) >> frame 320, loop time = 4.848s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:17:30,952 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:30,983 [INFO]: MainProcess video.py(inference:235) >> frame 321, loop time = 4.850s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:17:35,718 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:35,749 [INFO]: MainProcess video.py(inference:235) >> frame 322, loop time = 4.766s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:17:40,664 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:40,711 [INFO]: MainProcess video.py(inference:235) >> frame 323, loop time = 4.962s, input FPS = 23.976, output FPS = 0.202
+2021-12-07 11:17:46,296 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:46,327 [INFO]: MainProcess video.py(inference:235) >> frame 324, loop time = 5.616s, input FPS = 23.976, output FPS = 0.178
+2021-12-07 11:17:51,991 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:52,023 [INFO]: MainProcess video.py(inference:235) >> frame 325, loop time = 5.696s, input FPS = 23.976, output FPS = 0.176
+2021-12-07 11:17:56,882 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:17:56,898 [INFO]: MainProcess video.py(inference:235) >> frame 326, loop time = 4.875s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:18:01,706 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:18:01,721 [INFO]: MainProcess video.py(inference:235) >> frame 327, loop time = 4.823s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:18:06,414 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:18:06,445 [INFO]: MainProcess video.py(inference:235) >> frame 328, loop time = 4.724s, input FPS = 23.976, output FPS = 0.212
+2021-12-07 11:18:11,434 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:18:11,466 [INFO]: MainProcess video.py(inference:235) >> frame 329, loop time = 5.020s, input FPS = 23.976, output FPS = 0.199
+2021-12-07 11:18:16,155 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:18:16,186 [INFO]: MainProcess video.py(inference:235) >> frame 330, loop time = 4.720s, input FPS = 23.976, output FPS = 0.212
+2021-12-07 11:18:20,863 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:18:20,879 [INFO]: MainProcess video.py(inference:235) >> frame 331, loop time = 4.693s, input FPS = 23.976, output FPS = 0.213
+2021-12-07 11:18:25,677 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:18:25,709 [INFO]: MainProcess video.py(inference:235) >> frame 332, loop time = 4.830s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:18:30,454 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:18:30,485 [INFO]: MainProcess video.py(inference:235) >> frame 333, loop time = 4.776s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:18:35,360 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:18:35,423 [INFO]: MainProcess video.py(inference:235) >> frame 334, loop time = 4.938s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:18:40,209 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:18:40,240 [INFO]: MainProcess video.py(inference:235) >> frame 335, loop time = 4.817s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:18:45,232 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:18:45,263 [INFO]: MainProcess video.py(inference:235) >> frame 336, loop time = 5.023s, input FPS = 23.976, output FPS = 0.199
+2021-12-07 11:18:50,123 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:18:50,139 [INFO]: MainProcess video.py(inference:235) >> frame 337, loop time = 4.876s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:18:54,965 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:18:54,996 [INFO]: MainProcess video.py(inference:235) >> frame 338, loop time = 4.857s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:18:59,763 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:18:59,810 [INFO]: MainProcess video.py(inference:235) >> frame 339, loop time = 4.814s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:19:04,676 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [13]
+2021-12-07 11:19:04,707 [INFO]: MainProcess video.py(inference:235) >> frame 340, loop time = 4.897s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:19:09,495 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:19:09,527 [INFO]: MainProcess video.py(inference:235) >> frame 341, loop time = 4.819s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:19:14,434 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:19:14,449 [INFO]: MainProcess video.py(inference:235) >> frame 342, loop time = 4.923s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:19:19,256 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:19:19,287 [INFO]: MainProcess video.py(inference:235) >> frame 343, loop time = 4.838s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:19:24,087 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:19:24,118 [INFO]: MainProcess video.py(inference:235) >> frame 344, loop time = 4.831s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:19:28,867 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:19:28,898 [INFO]: MainProcess video.py(inference:235) >> frame 345, loop time = 4.764s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:19:33,617 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:19:33,649 [INFO]: MainProcess video.py(inference:235) >> frame 346, loop time = 4.751s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:19:38,447 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:19:38,478 [INFO]: MainProcess video.py(inference:235) >> frame 347, loop time = 4.830s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:19:43,334 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:19:43,365 [INFO]: MainProcess video.py(inference:235) >> frame 348, loop time = 4.887s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:19:48,117 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:19:48,148 [INFO]: MainProcess video.py(inference:235) >> frame 349, loop time = 4.783s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:19:52,980 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:19:53,011 [INFO]: MainProcess video.py(inference:235) >> frame 350, loop time = 4.863s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:19:57,798 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:19:57,829 [INFO]: MainProcess video.py(inference:235) >> frame 351, loop time = 4.818s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:20:02,594 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:20:02,641 [INFO]: MainProcess video.py(inference:235) >> frame 352, loop time = 4.796s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:20:07,490 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:20:07,537 [INFO]: MainProcess video.py(inference:235) >> frame 353, loop time = 4.881s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:20:12,378 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [12]
+2021-12-07 11:20:12,409 [INFO]: MainProcess video.py(inference:235) >> frame 354, loop time = 4.872s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:20:17,051 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [11]
+2021-12-07 11:20:17,082 [INFO]: MainProcess video.py(inference:235) >> frame 355, loop time = 4.673s, input FPS = 23.976, output FPS = 0.214
+2021-12-07 11:20:21,995 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [11]
+2021-12-07 11:20:22,011 [INFO]: MainProcess video.py(inference:235) >> frame 356, loop time = 4.929s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:20:26,872 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [9]
+2021-12-07 11:20:26,904 [INFO]: MainProcess video.py(inference:235) >> frame 357, loop time = 4.892s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:20:32,409 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [8]
+2021-12-07 11:20:32,440 [INFO]: MainProcess video.py(inference:235) >> frame 358, loop time = 5.536s, input FPS = 23.976, output FPS = 0.181
+2021-12-07 11:20:37,279 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [9]
+2021-12-07 11:20:37,310 [INFO]: MainProcess video.py(inference:235) >> frame 359, loop time = 4.870s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:20:42,139 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [8]
+2021-12-07 11:20:42,170 [INFO]: MainProcess video.py(inference:235) >> frame 360, loop time = 4.860s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:20:46,982 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [11]
+2021-12-07 11:20:47,013 [INFO]: MainProcess video.py(inference:235) >> frame 361, loop time = 4.843s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:20:51,938 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [9]
+2021-12-07 11:20:51,969 [INFO]: MainProcess video.py(inference:235) >> frame 362, loop time = 4.956s, input FPS = 23.976, output FPS = 0.202
+2021-12-07 11:20:56,798 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [7]
+2021-12-07 11:20:56,813 [INFO]: MainProcess video.py(inference:235) >> frame 363, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:21:01,470 [INFO]: MainProcess cifcaf.py(__call__:119) >> 0 annotations: []
+2021-12-07 11:21:01,501 [INFO]: MainProcess video.py(inference:235) >> frame 364, loop time = 4.672s, input FPS = 23.976, output FPS = 0.214
+2021-12-07 11:21:06,272 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [8]
+2021-12-07 11:21:06,288 [INFO]: MainProcess falldetector.py(update:29) >> FALL DETECTED
+2021-12-07 11:21:06,288 [INFO]: MainProcess painters.py(annotations:402) >> FALL COUNT: 5
+2021-12-07 11:21:06,397 [INFO]: MainProcess imgwriter.py(write:23) >> Frame written: C:\Users\daiki\PycharmProjects\openpifpaf_fall_debug\venv\lib\site-packages\openpifpaf/output/img/20211207_112106_webcam_openpifpaf_5.jpg
+2021-12-07 11:21:06,397 [INFO]: MainProcess video.py(inference:235) >> frame 365, loop time = 4.896s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:21:11,286 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [3, 3]
+2021-12-07 11:21:11,317 [INFO]: MainProcess video.py(inference:235) >> frame 366, loop time = 4.920s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:21:16,035 [INFO]: MainProcess cifcaf.py(__call__:119) >> 0 annotations: []
+2021-12-07 11:21:16,051 [INFO]: MainProcess video.py(inference:235) >> frame 367, loop time = 4.734s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:21:20,803 [INFO]: MainProcess cifcaf.py(__call__:119) >> 0 annotations: []
+2021-12-07 11:21:20,818 [INFO]: MainProcess video.py(inference:235) >> frame 368, loop time = 4.767s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:21:25,617 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [9]
+2021-12-07 11:21:25,633 [INFO]: MainProcess video.py(inference:235) >> frame 369, loop time = 4.815s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:21:30,415 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [11, 2, 2]
+2021-12-07 11:21:30,462 [INFO]: MainProcess video.py(inference:235) >> frame 370, loop time = 4.829s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:21:35,320 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [10, 2]
+2021-12-07 11:21:35,366 [INFO]: MainProcess video.py(inference:235) >> frame 371, loop time = 4.905s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:21:40,117 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2021-12-07 11:21:40,148 [INFO]: MainProcess video.py(inference:235) >> frame 372, loop time = 4.782s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:21:44,999 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2021-12-07 11:21:45,046 [INFO]: MainProcess video.py(inference:235) >> frame 373, loop time = 4.897s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:21:49,733 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2021-12-07 11:21:49,765 [INFO]: MainProcess video.py(inference:235) >> frame 374, loop time = 4.719s, input FPS = 23.976, output FPS = 0.212
+2021-12-07 11:21:54,546 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [10, 2, 2]
+2021-12-07 11:21:54,593 [INFO]: MainProcess video.py(inference:235) >> frame 375, loop time = 4.829s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:21:59,399 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [10]
+2021-12-07 11:21:59,430 [INFO]: MainProcess video.py(inference:235) >> frame 376, loop time = 4.837s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:22:04,254 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [11]
+2021-12-07 11:22:04,270 [INFO]: MainProcess video.py(inference:235) >> frame 377, loop time = 4.840s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:22:08,974 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [10]
+2021-12-07 11:22:09,005 [INFO]: MainProcess video.py(inference:235) >> frame 378, loop time = 4.735s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:22:13,720 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [10]
+2021-12-07 11:22:13,735 [INFO]: MainProcess video.py(inference:235) >> frame 379, loop time = 4.730s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:22:18,596 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [10]
+2021-12-07 11:22:18,627 [INFO]: MainProcess video.py(inference:235) >> frame 380, loop time = 4.892s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:22:23,363 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [10, 4]
+2021-12-07 11:22:23,394 [INFO]: MainProcess video.py(inference:235) >> frame 381, loop time = 4.767s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:22:28,197 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [8, 4]
+2021-12-07 11:22:28,229 [INFO]: MainProcess video.py(inference:235) >> frame 382, loop time = 4.834s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:22:32,986 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [13, 3, 2]
+2021-12-07 11:22:33,033 [INFO]: MainProcess video.py(inference:235) >> frame 383, loop time = 4.804s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:22:37,813 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [9, 5, 2]
+2021-12-07 11:22:37,860 [INFO]: MainProcess video.py(inference:235) >> frame 384, loop time = 4.827s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:22:42,704 [INFO]: MainProcess cifcaf.py(__call__:119) >> 5 annotations: [11, 3, 2, 2, 2]
+2021-12-07 11:22:42,782 [INFO]: MainProcess video.py(inference:235) >> frame 385, loop time = 4.922s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:22:47,524 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [11, 3, 2, 2]
+2021-12-07 11:22:47,571 [INFO]: MainProcess video.py(inference:235) >> frame 386, loop time = 4.789s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:22:52,408 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [11, 4, 2, 2]
+2021-12-07 11:22:52,455 [INFO]: MainProcess video.py(inference:235) >> frame 387, loop time = 4.883s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:22:57,258 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [11, 3, 2, 2]
+2021-12-07 11:22:57,320 [INFO]: MainProcess video.py(inference:235) >> frame 388, loop time = 4.866s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:23:02,196 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [11, 3, 2]
+2021-12-07 11:23:02,243 [INFO]: MainProcess video.py(inference:235) >> frame 389, loop time = 4.922s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:23:07,120 [INFO]: MainProcess cifcaf.py(__call__:119) >> 4 annotations: [10, 2, 3, 2]
+2021-12-07 11:23:07,167 [INFO]: MainProcess video.py(inference:235) >> frame 390, loop time = 4.925s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:23:11,992 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [11, 2, 2]
+2021-12-07 11:23:12,039 [INFO]: MainProcess video.py(inference:235) >> frame 391, loop time = 4.872s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:23:16,884 [INFO]: MainProcess cifcaf.py(__call__:119) >> 3 annotations: [11, 2, 3]
+2021-12-07 11:23:16,931 [INFO]: MainProcess video.py(inference:235) >> frame 392, loop time = 4.892s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:23:21,645 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:23:21,676 [INFO]: MainProcess video.py(inference:235) >> frame 393, loop time = 4.745s, input FPS = 23.976, output FPS = 0.211
+2021-12-07 11:23:26,637 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:23:26,652 [INFO]: MainProcess video.py(inference:235) >> frame 394, loop time = 4.976s, input FPS = 23.976, output FPS = 0.201
+2021-12-07 11:23:31,420 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:23:31,451 [INFO]: MainProcess video.py(inference:235) >> frame 395, loop time = 4.799s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:23:36,251 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:23:36,283 [INFO]: MainProcess video.py(inference:235) >> frame 396, loop time = 4.832s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:23:41,020 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:23:41,052 [INFO]: MainProcess video.py(inference:235) >> frame 397, loop time = 4.769s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:23:45,802 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:23:45,833 [INFO]: MainProcess video.py(inference:235) >> frame 398, loop time = 4.781s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:23:50,643 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:23:50,674 [INFO]: MainProcess video.py(inference:235) >> frame 399, loop time = 4.841s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:23:55,495 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:23:55,526 [INFO]: MainProcess video.py(inference:235) >> frame 400, loop time = 4.852s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:24:00,425 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:24:00,456 [INFO]: MainProcess video.py(inference:235) >> frame 401, loop time = 4.930s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:24:05,176 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:24:05,223 [INFO]: MainProcess video.py(inference:235) >> frame 402, loop time = 4.751s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:24:09,900 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:24:09,931 [INFO]: MainProcess video.py(inference:235) >> frame 403, loop time = 4.708s, input FPS = 23.976, output FPS = 0.212
+2021-12-07 11:24:14,756 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:24:14,787 [INFO]: MainProcess video.py(inference:235) >> frame 404, loop time = 4.856s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:24:19,631 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:24:19,647 [INFO]: MainProcess video.py(inference:235) >> frame 405, loop time = 4.860s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:24:24,544 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:24:24,560 [INFO]: MainProcess video.py(inference:235) >> frame 406, loop time = 4.913s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:24:29,447 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:24:29,478 [INFO]: MainProcess video.py(inference:235) >> frame 407, loop time = 4.918s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:24:34,331 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:24:34,362 [INFO]: MainProcess video.py(inference:235) >> frame 408, loop time = 4.884s, input FPS = 23.976, output FPS = 0.205
+2021-12-07 11:24:39,153 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:24:39,200 [INFO]: MainProcess video.py(inference:235) >> frame 409, loop time = 4.822s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:24:44,011 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:24:44,058 [INFO]: MainProcess video.py(inference:235) >> frame 410, loop time = 4.842s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:24:48,800 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:24:48,831 [INFO]: MainProcess video.py(inference:235) >> frame 411, loop time = 4.773s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:24:53,661 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:24:53,693 [INFO]: MainProcess video.py(inference:235) >> frame 412, loop time = 4.862s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:24:58,509 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:24:58,540 [INFO]: MainProcess video.py(inference:235) >> frame 413, loop time = 4.848s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:25:03,369 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:25:03,385 [INFO]: MainProcess video.py(inference:235) >> frame 414, loop time = 4.844s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:25:08,243 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:25:08,283 [INFO]: MainProcess video.py(inference:235) >> frame 415, loop time = 4.897s, input FPS = 23.976, output FPS = 0.204
+2021-12-07 11:25:13,077 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:25:13,093 [INFO]: MainProcess video.py(inference:235) >> frame 416, loop time = 4.810s, input FPS = 23.976, output FPS = 0.208
+2021-12-07 11:25:17,844 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [15]
+2021-12-07 11:25:17,860 [INFO]: MainProcess video.py(inference:235) >> frame 417, loop time = 4.767s, input FPS = 23.976, output FPS = 0.210
+2021-12-07 11:25:22,625 [INFO]: MainProcess cifcaf.py(__call__:119) >> 1 annotations: [16]
+2021-12-07 11:25:22,657 [INFO]: MainProcess video.py(inference:235) >> frame 418, loop time = 4.781s, input FPS = 23.976, output FPS = 0.209
+2021-12-07 11:25:27,455 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:25:27,502 [INFO]: MainProcess video.py(inference:235) >> frame 419, loop time = 4.845s, input FPS = 23.976, output FPS = 0.206
+2021-12-07 11:25:32,276 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2021-12-07 11:25:32,323 [INFO]: MainProcess video.py(inference:235) >> frame 420, loop time = 4.821s, input FPS = 23.976, output FPS = 0.207
+2021-12-07 11:25:37,213 [INFO]: MainProcess cifcaf.py(__call__:119) >> 2 annotations: [16, 2]
+2021-12-07 11:25:37,244 [INFO]: MainProcess video.py(inference:235) >> frame 421, loop time = 4.921s, input FPS = 23.976, output FPS = 0.203
+2021-12-07 11:25:37,401 [INFO]: MainProcess video.py(inference:198) >> no more images captured
